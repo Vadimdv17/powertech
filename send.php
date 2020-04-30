@@ -45,11 +45,11 @@ $data = array(
     'products'        => $products,                        // массив с товарами заказа
     'order_source'    => 'Лендинг',                        // источник заказа (необязательно)
     'traffic_source'  => 'AdWords',                        // источник трафика (необязательно)
-    'utm_source'      => $_SESSION['utms']['utm_source'],  // utm_source
-    'utm_medium'      => $_SESSION['utms']['utm_medium'],  // utm_medium
-    'utm_term'        => $_SESSION['utms']['utm_term'],    // utm_term
-    'utm_content'     => $_SESSION['utms']['utm_content'], // utm_content
-    'utm_campaign'    => $_SESSION['utms']['utm_campaign'],// utm_campaign
+    'utm_source'      => $_SESSION['utms']['utm_source'],  // utm_source (необязательно)
+    'utm_medium'      => $_SESSION['utms']['utm_medium'],  // utm_medium (необязательно)
+    'utm_term'        => $_SESSION['utms']['utm_term'],    // utm_term (необязательно)
+    'utm_content'     => $_SESSION['utms']['utm_content'], // utm_content (необязательно)
+    'utm_campaign'    => $_SESSION['utms']['utm_campaign'],// utm_campaign (необязательно)
 );
  
 // запрос
